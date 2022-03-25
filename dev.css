@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-stack {
+  @apply bg-slate-50;
+}
+.grid-stack-item-content {
+  @apply bg-slate-100;
+}
+.signature {
+  @apply bg-slate-50 text-black;
+}
+.grid-stack-item-removing {
+  @apply opacity-90 blur-sm bg-rose-300 transition-all;
+}
