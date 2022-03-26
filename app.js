@@ -287,3 +287,5 @@ grid.on("dragstop", (e, el) => {
 
 // resizes grid so that the height of the grid stays in view
 window.addEventListener("resize", gridResize);
+
+// lezgo
