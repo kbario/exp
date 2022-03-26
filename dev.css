@@ -9,8 +9,20 @@
   @apply bg-slate-100;
 }
 .signature {
-  @apply bg-slate-50 text-black;
+  @apply flex justify-center items-center h-full bg-slate-50 text-black;
 }
 .grid-stack-item-removing {
   @apply opacity-90 blur-sm bg-rose-300 transition-all;
+}
+.title {
+  @apply p-1 flex justify-center items-center text-center text-4xl h-full w-full cursor-move;
+}
+.our-text {
+  @apply p-1 cursor-move;
+}
+.img {
+  @apply p-1 flex justify-center items-center cursor-move;
+}
+.display-only {
+  @apply cursor-default;
 }

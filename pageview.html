@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="node_modules/gridstack/dist/gridstack.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="node_modules/gridstack/dist/gridstack-h5.js"></script>
+    <script src="node_modules/gridstack/dist/gridstack-jq.js"></script>
+
+    <script src="node_modules/gridstack/dist/es5/gridstack-poly.js"></script>
+    <script src="node_modules/gridstack/dist/es5/gridstack-jq.js"></script>
+  </head>
+  <body class="h-screen w-screen">
+    <section class="h-full flex w-full bg-slate-100">
+      <article class="w-full h-full flex flex-col p-4 gap-4">
+        <div class="w-full h-auto">
+          <div class="flex gap-3 items-center">
+            <a href="/dashboard">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-8 w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"
+                />
+              </svg>
+            </a>
+            <div
+              id="page-title-display"
+              class="text-2xl sm:text-4xl w-full p-3 focus:bg-white bg-slate-100"
+            ></div>
+          </div>
+        </div>
+        <div
+          id="display-grid"
+          class="grid-stack grid-stack-content w-full max-w-4xl mx-auto grow mb-0"
+        ></div>
+      </article>
+    </section>
+  </body>
+  <script src="pageView.js"></script>
+</html>
